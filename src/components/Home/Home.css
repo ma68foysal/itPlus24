@@ -1,0 +1,94 @@
+.home-setion{
+    background-image: url(/public/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 2rem 0;
+}
+.home-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 2rem 4rem 2rem;
+}
+.home-left{
+    width: 50%;
+}
+.header-img{
+    max-width: 100%;
+}
+.home-right{
+    width: 50%;
+    padding-left: 1.2rem;
+    margin-top: 100px;
+}
+.home-title{
+    font-size: 56px;
+    color: #0ACBFF;
+    font-weight: 600;
+    line-height: 70px; 
+    font-family: 'raleway'; 
+}
+.home-description{
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    color: #D2D2D2;
+    padding-top:1rem;
+    padding-bottom:2rem;
+}
+.contact-btn-home{
+    width: 170px;
+    padding: 10px 20px;
+    border: 1px solid #005DB7;
+    border-radius: 30px 0 30px 0;
+    transition: 0.5s;
+    position: relative;
+}
+.contact-link-home{
+    color:#0ACBFF;
+    color:#005DB7;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.5s;
+    padding-right: 5px;
+}
+.contact-btn-home:hover .contact-link-home {
+    padding-right: 15px;
+    color: #0ACBFF;
+}
+.contact-btn-home:hover{
+    background: #005DB7;
+    color: #0ACBFF;
+}
+.contact-arrow-icon-home{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+/* Responsive home section */
+@media (max-width: 767.98px) {
+    .home-flex{
+        flex-direction: column;
+    }
+    .home-left{
+        width: 100%;
+        order: 2;
+    }
+    .home-right{
+        width: 100%;
+        order: 1;
+        
+    }
+    .home-title{
+        font-size: 36px;
+        color: #0ACBFF;
+        font-weight: 600;
+        line-height: 56px; 
+        font-family: 'raleway'; 
+    }
+ }

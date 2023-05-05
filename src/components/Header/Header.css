@@ -1,0 +1,112 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    padding:0.5rem 2rem;
+    box-shadow: 0 2px 5px rgba(1, 1, 1, 0.05);
+    z-index: 99;
+    position: sticky;
+    top: 0;
+    right:0;
+    left: 0;
+    background-color: #0E0032;
+}
+
+
+.logo{
+    width: 200px;
+    height: 60px;
+}
+
+.menu-link{
+    padding: 5px;
+    margin: 5px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.menu-link:hover{
+    color: #0ACBFF;
+}
+
+.barger-icon{
+    display: none;
+    position: absolute;
+    right: 32px;
+    top: 20px;
+}
+
+.contact-btn-link{
+    width: 170px;
+    padding: 10px 20px;
+    border: 1px solid #005DB7;
+    border-radius: 30px 0 30px 0;
+    transition: 0.5s;
+    position: relative;
+}
+.contact-link{
+    color:#0ACBFF;
+    color:#005DB7;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.5s;
+    padding-right: 5px;
+}
+.contact-btn-link:hover .contact-link {
+    padding-right: 15px;
+    color: #0E0032;
+}
+
+
+.contact-btn-link:hover{
+    background: #005DB7;
+    color: #0E0032;
+}
+
+.contact-arrow-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+
+/* Responsive header */
+@media (max-width: 767.98px) {
+    .menu-link{
+        display: none;
+        
+    }
+    .menu-link-mobile{
+        display: block;
+        color: #0E0032;
+        font-size: 16px;
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+    .menu-mobile{
+        position: absolute;
+        left: 0;
+        top: 85px;
+        background-color: #ffffff;
+        width: 100%;
+        height: 150px;
+    }
+    .barger-icon{
+        display:block;
+        text-align: end;
+        font-size: 50px;
+        background-color: transparent;
+        color: #ffffff;
+    }
+    .contact-btn-link{
+        display: none;
+    }
+    .logo{
+        width: 150px;
+    }
+}
