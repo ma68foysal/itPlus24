@@ -9,6 +9,7 @@
 }
 .slider{
     display: flex;
+    height: 100%;
 }
 .home-flex{
     display: flex;

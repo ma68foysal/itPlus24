@@ -1,36 +1,88 @@
 import './Services.css'
-import advice from '../../assets/image/icons/teamwork-together-icon.svg'
-import brand from '../../assets/image/icons/brand-identity-icon.svg'
-import devlopment from '../../assets/image/icons/web-page-icon.svg'
-import apps from '../../assets/image/icons/mobile-app-dev-icon.svg'
+
 const OurServices = () => {
     return (
-        <div className='sevices-section'>
-            <h2 className='services-titel'>Our Services</h2>
-            <p className='services-descriptin'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ab quis deleniti inventore quas error.</p>
-            <div className='services-cart-sec'>
-                <div className='services-cart'>
-                    <img className='cart-icon' src={advice} alt="advice-icon" />
-                    <h2 className='cart-title'>To Advise</h2>
-                    <p className='cart-des'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
-                </div>
-                <div className='services-cart'>
-                    <img className='cart-icon' src={brand} alt="advice-icon" />
-                    <h2 className='cart-title'>Brand identity</h2>
-                    <p className='cart-des'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
-                </div>
-                <div className='services-cart'>
-                    <img className='cart-icon' src={devlopment} alt="advice-icon" />
-                    <h2 className='cart-title'>Web design & development</h2>
-                    <p className='cart-des'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
-                </div>
-                <div className='services-cart'>
-                    <img className='cart-icon' src={apps} alt="advice-icon" />
-                    <h2 className='cart-title'>Apps development</h2>
-                    <p className='cart-des'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
+        <>
+            <div className="service  mt-100">
+                <div className="container">
+                    <div className="title-box m-auto">
+                        <h2 className='title text-center'>Our Best Service</h2>
+                        <p className='desc text-center'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+                    </div>
+                    <div className="row  ">
+                        <div className=' d-flex justify-content-between align-items-center pt-100'>
+                            <div className="col-lg-3  service-box ">
+                                <div className="service-content justify-content-center align-items-center d-flex">
+                                    <div className="icon-box">
+                                        <img className="icon" src="./images/icon/icons01.png" alt="icon" />
+                                    </div>
+                                    <div className="service-text p-10">
+                                        <h4 className='service-title'>Web Ontwikkeling</h4>
+                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 service-box">
+                                <div className="service-content justify-content-center align-items-center d-flex">
+                                    <div className="icon-box">
+                                        <img className="icon" src="./images/icon/icons02.png" alt="icon" />
+                                    </div>
+                                    <div className="service-text p-10">
+                                        <h4 className='service-title'>Web Ontwikkeling</h4>
+                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 service-box">
+                                <div className="service-content justify-content-center align-items-center d-flex">
+                                    <div className="icon-box">
+                                        <img className="icon" src="./images/icon/icons03.png" alt="icon" />
+                                    </div>
+                                    <div className="service-text p-10">
+                                        <h4 className='service-title'>Web Ontwikkeling</h4>
+                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div className="row  ">
+                        <div className=' d-flex justify-content-center align-items-center pt-100'>
+                            <div className="col-lg-3 mr-30  service-box ">
+                                <div className="service-content justify-content-center align-items-center d-flex">
+                                    <div className="icon-box">
+                                        <img className="icon" src="./images/icon/icons01.png" alt="icon" />
+                                    </div>
+                                    <div className="service-text p-10">
+                                        <h4 className='service-title'>Web Ontwikkeling</h4>
+                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 ml-30  service-box">
+                                <div className="service-content justify-content-center align-items-center d-flex">
+                                    <div className="icon-box">
+                                        <img className="icon" src="./images/icon/icons02.png" alt="icon" />
+                                    </div>
+                                    <div className="service-text p-10">
+                                        <h4 className='service-title'>Web Ontwikkeling</h4>
+                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+
+
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
