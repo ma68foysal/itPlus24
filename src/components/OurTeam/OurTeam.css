@@ -1,54 +1,47 @@
-.team-section{
-    padding: 2rem 2rem;
-    padding-top: 3rem;
+.our-team{
+    padding-bottom: 50px;
 }
-.team-w-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.team-w-box-left{
-    width: 50%;
-    padding-right: 15px;
-    align-items: start;
-}
-.team-title{
-    text-align: left;
-}
-.team-des{
-    text-align: left;
-}
-.team-img{
-    width: 100%;
-}
-.team-w-box-right{
-    width: 50%;
-    padding-left: 15px;
+.our-team-title-box{
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
-
-@media (max-width: 499.98px) {
-    .team-w-box{
-        flex-direction: column;
-    }
-    .team-w-box-left{
-        width: 100%;
-    }
-    .team-w-box-right{
-        width: 100%;
-    }
-    .team-section{
-        margin-top: 3rem;
-    }
+.title{
+ color: #005DB7;
+ font-size: 80px;
+ line-height: 90px;
 }
-@media (min-width:500px) and (max-width: 767.98px) {
-    .team-w-box{
-        flex-direction: column;
-    }
-    .team-w-box-left{
-        width: 100%;
-    }
-    .team-w-box-right{
-        width: 100%;
-    }
+.desc{
+    font-size: 23px;
+    line-height: 34px;
+    color: #828282;
+}
+.member-id-box{
+    background-color: #E8E8E8;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+.member-img{
+    width: 100px;
+}
+.member-name{
+    color: #005DB7;
+    font-size: 30px;
+    line-height: 38px;
+    padding-top: 30px;
+}
+.position{
+    color: #828282;
+    font-size: 20px;
+    line-height: 28px;
+}
+.social-link{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.social-icon{
+    width: 30px;
 }

@@ -4,7 +4,6 @@ import Home from '../Home/Home';
 import OurServices from './../OurServices/OurServices';
 import WorkProces from './../WorkProces/WorkProces';
 import OurTeam from './../OurTeam/OurTeam';
-import Contact from './../Contact/Contact';
 import Footer from '../Footer/Footer';
 import { useRef } from 'react';
 import Method from '../Portfolio/Method';
@@ -23,7 +22,6 @@ const Layout = () => {
             <Method Ref={Ref}/>
             <WorkProces></WorkProces>
             <OurTeam></OurTeam>
-            <Contact></Contact>
             <Footer></Footer>
         </div>
     );
