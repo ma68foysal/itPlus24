@@ -9,19 +9,19 @@
     padding-bottom: 50px;
 }
 
-.title{
+.our-team-title{
  color: #005DB7;
  font-size: 80px;
  line-height: 90px;
 }
-.desc{
+.our-team-desc{
     font-size: 23px;
     line-height: 34px;
     color: #828282;
 }
 .member-id-box{
     background-color: #E8E8E8;
-    padding: 30px 20px;
+    padding: 50px 20px;
     border-radius: 8px;
 }
 .member-img{
@@ -29,14 +29,14 @@
 }
 .member-name{
     color: #005DB7;
-    font-size: 30px;
-    line-height: 38px;
+    font-size: 28px;
+    line-height: 34px;
     padding-top: 30px;
 }
 .position{
     color: #828282;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 26px;
 }
 .social-link{
     padding-top: 40px;

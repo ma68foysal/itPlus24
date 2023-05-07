@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
             
         </div>
-        <div className="container-fluid">
+        <div className="container-fluid p-0">
         <div className="copy-right text-center">
                 <p className='copy-right-text'>© 2021 - 2023 All Copyright Reserved by It-plus 24.com</p>
             </div>

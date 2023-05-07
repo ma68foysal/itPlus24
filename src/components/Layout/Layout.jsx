@@ -2,11 +2,11 @@
 import Header from '../Header/Header';
 import Home from '../Home/Home';
 import OurServices from './../OurServices/OurServices';
-import WorkProces from './../WorkProces/WorkProces';
+import Portfolio from '../Portfolio/Portfolio'
 import OurTeam from './../OurTeam/OurTeam';
 import Footer from '../Footer/Footer';
 import { useRef } from 'react';
-import Method from '../Portfolio/Method';
+import Method from '../Method/Method';
 
 const Layout = () => {
     const Ref =useRef()
@@ -16,13 +16,13 @@ const Layout = () => {
     }
     return (
         <div>
-            <Header scroll={scroll}></Header>
-            <Home></Home>
-            <OurServices></OurServices>
+            <Header scroll={scroll}/>
+            <Home/>
+            <OurServices/>
             <Method Ref={Ref}/>
-            <WorkProces></WorkProces>
-            <OurTeam></OurTeam>
-            <Footer></Footer>
+            <Portfolio/>
+            <OurTeam/>
+            <Footer/>
         </div>
     );
 };
