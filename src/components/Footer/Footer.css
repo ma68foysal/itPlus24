@@ -33,5 +33,12 @@
 }
 
 @media (max-width: 767.98px) {
-     
+    .footer-content{
+      text-align: center;
+
+    }
+    .footer-descriptin{
+        text-align: center;
+        margin-bottom: 30px;
+    }
  }

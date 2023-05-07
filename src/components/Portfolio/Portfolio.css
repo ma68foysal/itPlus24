@@ -38,3 +38,21 @@
 .mt-30{
     margin-top: 30px;
 }
+@media (max-width: 767.98px){
+    .portfolio-title-box{
+        width: 100%;
+    }
+    
+    .portfolio-title{
+     font-size: 28px;
+     line-height: 34px;
+    }
+    .portfolio-desc{
+        font-size: 18px;
+        line-height: 26px;
+        
+    }
+    .m-mt-30{
+ margin-top: 30px;
+    }
+}
