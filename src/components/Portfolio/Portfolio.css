@@ -13,35 +13,6 @@
     line-height: 28px;
     color: #828282;
 }
-.portfol-content{
-    background-image: url(../../../public/images/portfolio.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    border-radius: 10px;
-    height: 450px;
-    width: 400px;
-    
-}
-
-.portfol-content:hover{
-    flex-shrink:2
-}
-.overlay{
-    width: 100%;
-    height: 100%;
-    padding: 30px 20px 30px 20px;
-    border-radius: 10px;
-    transition: 0.5s;
-}
-.overlay:hover{
-    background-color: red;
-    mix-blend-mode: multiply;
-}
-.overlay:hover .cart-title{
-    color: #ffffff;
-}
 .cart-title{
     font-size: 30px;
     line-height: 38px;
@@ -52,6 +23,134 @@
     line-height: 19px;
     color: #ffffff;
 }
+.portfol-content-one{
+    background-image: url(../../../public/images/portfolio1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 336px;
+    width: 336px;
+    
+}
+.portfol-content-two{
+    background-image: url(../../../public/images/portfolio2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 336px;
+    width: 336px;
+    
+}
+.portfol-content-thre{
+    background-image: url(../../../public/images/portfolio3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 336px;
+    width: 336px;
+    
+}
+.portfol-content-four{
+    background-image: url(../../../public/images/portfolio4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 336px;
+    width: 336px;
+    
+}
+.portfol-content-five{
+    background-image: url(../../../public/images/portfolio5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 336px;
+    width: 336px;
+    
+}
+.portfol-content-six{
+    background-image: url(../../../public/images/portfolio6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 336px;
+    width: 336px;
+    
+}
+
+
+.overlay-one{
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.overlay-two{
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.overlay-two:hover{
+    background-color: #c731a9;
+    mix-blend-mode: multiply;
+    color: #fff;
+}
+.overlay-thre{
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.overlay-thre:hover{
+    background-color: #0acbff;
+    mix-blend-mode: multiply;
+    color: #fff;
+}
+.overlay-four{
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.overlay-four:hover{
+    background-color: #405278;
+    mix-blend-mode: multiply;
+    color: #fff;
+}
+.overlay-five{
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.overlay-five:hover{
+    background-color: #d63434;
+    mix-blend-mode: multiply;
+    color: #ffffff;
+}
+.overlay-six{
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+
 .mt-30{
     margin-top: 30px;
 }

@@ -11,8 +11,8 @@ const Portfolio = ({pro}) => {
                 </div>
                 <div className="row">
                     <div className="col-lg-4 col-12 " >
-                        <div className="portfol-content m-mt-30">
-                            <div className="overlay">
+                        <div className="portfol-content-one m-mt-30">
+                            <div className="overlay-one">
                             <h3 className='cart-title'>Web Developement</h3>
                             <p className='cart-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
                             </div>
@@ -20,33 +20,43 @@ const Portfolio = ({pro}) => {
                         </div>
                     </div>
                     <div className="col-lg-4 col-12 ">
-                        <div className="portfol-content m-mt-30">
+                        <div className="portfol-content-two m-mt-30">
+                        <div className="overlay-two">
                             <h3 className='cart-title'>Web Developement</h3>
                             <p className='cart-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-12 ">
-                        <div className="portfol-content m-mt-30">
+                        <div className="portfol-content-thre m-mt-30">
+                        <div className="overlay-thre">
                             <h3 className='cart-title'>Web Developement</h3>
                             <p className='cart-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-12 ">
-                        <div className="portfol-content mt-30">
-                            <h3 className='cart-title'>Web Developement</h3>
+                        <div className="portfol-content-four mt-30">
+                        <div className="overlay-four">
+                            <h3 className='cart-title'>App Developement</h3>
                             <p className='cart-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-12 ">
-                        <div className="portfol-content mt-30">
-                            <h3 className='cart-title'>Web Developement</h3>
+                        <div className="portfol-content-five mt-30">
+                        <div className="overlay-five">
+                            <h3 className='cart-title'>App Developement</h3>
                             <p className='cart-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-12 ">
-                        <div className="portfol-content mt-30">
-                            <h3 className='cart-title'>Web Developement</h3>
+                        <div className="portfol-content-six mt-30">
+                        <div className="overlay-six">
+                            <h3 className='cart-title'>App Developement</h3>
                             <p className='cart-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
                         </div>
                     </div>
                     
