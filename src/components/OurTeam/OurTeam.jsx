@@ -1,10 +1,10 @@
 
 import './OurTeam.css';
 
-const OurTeam = () => {
+const OurTeam = ({team}) => {
     return (
         <>
-        <div className="our-team">
+        <div ref={team} className="our-team">
             <div className="container">
             <div className="our-team-title-box m-auto">
                         <h2 className='our-team-title text-center'>Meet Our Team</h2>

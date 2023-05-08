@@ -1,9 +1,9 @@
 import './Services.css'
 
-const OurServices = () => {
+const OurServices = ({service}) => {
     return (
         <>
-            <div className="service  mt-100">
+            <div ref={service} className="service  mt-100">
                 <div className="container">
                     <div className="title-box m-auto">
                         <h2 className='title text-center'>Our Best Service</h2>

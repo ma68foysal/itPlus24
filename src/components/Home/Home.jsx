@@ -2,7 +2,7 @@ import './Home.css';
 import Slider from "react-slick";
 
 
-const Home = () => {
+const Home = ({home}) => {
   const settings = {
     dots: false,
     infinite: true,
@@ -14,7 +14,7 @@ const Home = () => {
     className:'slider'
   };
     return (
-        <section className="home-setion">
+        <section ref={home} className="home-setion">
           <Slider {...settings} >
           <div>
             <div className='home-flex'>

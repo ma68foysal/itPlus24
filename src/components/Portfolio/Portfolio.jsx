@@ -1,9 +1,9 @@
 import './Portfolio.css';
 
-const Portfolio = () => {
+const Portfolio = ({pro}) => {
     return (
         <>
-        <div className="Portfolio">
+        <div ref={pro} className="Portfolio">
             <div className="container">
             <div className="portfolio-title-box m-auto">
                     <h2 className='portfolio-title text-center'>Portfolio</h2>

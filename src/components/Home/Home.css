@@ -58,6 +58,7 @@
     font-weight: 400;
     transition: 0.5s;
     padding-right: 5px;
+    text-decoration: none;
 }
 .contact-btn-home:hover .contact-link-home {
     padding-right: 15px;
