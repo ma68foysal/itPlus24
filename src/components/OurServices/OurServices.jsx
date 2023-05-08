@@ -1,4 +1,9 @@
 import './Services.css'
+import icon1 from '../../assets/icon/Icons01.png'
+import icon2 from '../../assets/icon/Icons02.png'
+import icon3 from '../../assets/icon/Icons03.png'
+import icon4 from '../../assets/icon/Icons04.png'
+import icon5 from '../../assets/icon/Icons05.png'
 
 const OurServices = ({service}) => {
     return (
@@ -15,33 +20,33 @@ const OurServices = ({service}) => {
                             <div className="col-lg-3 col-12  service-box service-befor ">
                                 <div className="service-content justify-content-center align-items-center d-flex">
                                     <div className="icon-box">
-                                        <img className="icon" src="./images/icon/icons01.png" alt="icon" />
+                                        <img className="icon" src={icon1} alt="icon" />
                                     </div>
                                     <div className="service-text p-10">
                                         <h4 className='service-title'>Web Ontwikkeling</h4>
-                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
+                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,   </p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-12 service-box">
                                 <div className="service-content justify-content-center align-items-center d-flex">
                                     <div className="icon-box">
-                                        <img className="icon" src="./images/icon/icons02.png" alt="icon" />
+                                        <img className="icon" src={icon2} alt="icon" />
                                     </div>
                                     <div className="service-text p-10">
-                                        <h4 className='service-title'>Web Ontwikkeling</h4>
-                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
+                                        <h4 className='service-title'>apps Ontwikkeling</h4>
+                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, </p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-12 service-box service-befor-line">
                                 <div className="service-content justify-content-center align-items-center d-flex">
                                     <div className="icon-box">
-                                        <img className="icon" src="./images/icon/icons03.png" alt="icon" />
+                                        <img className="icon" src={icon3} alt="icon" />
                                     </div>
                                     <div className="service-text p-10">
-                                        <h4 className='service-title'>Web Ontwikkeling</h4>
-                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
+                                        <h4 className='service-title'>api integratie</h4>
+                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
                                     </div>
                                 </div>
                             </div>
@@ -52,25 +57,25 @@ const OurServices = ({service}) => {
                     </div>
                     <div className="row  ">
                         <div className=' mobile-align d-flex justify-content-center align-items-center pt-100'>
-                            <div className="col-lg-3 col-12 mr-30  service-box service-before-after ">
+                            <div className="col-lg-3 col-12 mr-140  service-box service-before-after ">
                                 <div className="service-content justify-content-center align-items-center d-flex">
                                     <div className="icon-box">
-                                        <img className="icon" src="./images/icon/icons01.png" alt="icon" />
+                                        <img className="icon" src={icon4} alt="icon" />
                                     </div>
                                     <div className="service-text p-10">
-                                        <h4 className='service-title'>Web Ontwikkeling</h4>
-                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
+                                        <h4 className='service-title'>creative design</h4>
+                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  </p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-12 ml-30 service-before-after-line service-box">
+                            <div className="col-lg-3 col-12 ml-20 service-before-after-line service-box">
                                 <div className="service-content justify-content-center align-items-center d-flex">
                                     <div className="icon-box">
-                                        <img className="icon" src="./images/icon/icons02.png" alt="icon" />
+                                        <img className="icon" src={icon5} alt="icon" />
                                     </div>
                                     <div className="service-text p-10">
-                                        <h4 className='service-title'>Web Ontwikkeling</h4>
-                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
+                                        <h4 className='service-title'>hosting system</h4>
+                                        <p className='service-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
                                     </div>
                                 </div>
                             </div>

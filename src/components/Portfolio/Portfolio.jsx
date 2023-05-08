@@ -12,8 +12,11 @@ const Portfolio = ({pro}) => {
                 <div className="row">
                     <div className="col-lg-4 col-12 " >
                         <div className="portfol-content m-mt-30">
+                            <div className="overlay">
                             <h3 className='cart-title'>Web Developement</h3>
                             <p className='cart-desc'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
+                            
                         </div>
                     </div>
                     <div className="col-lg-4 col-12 ">

@@ -1,6 +1,6 @@
 import './Header.css'
 
-import barger from '../../assets/image/barger.png'
+import barger from '../../assets/barger.png'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import {CiMenuBurger} from 'react-icons/ci'

@@ -11,22 +11,35 @@
 
 .method-title{
  color: #005DB7;
- font-size: 80px;
- line-height: 90px;
+ font-size: 56px;
+ line-height: 60px;
 }
 .method-desc{
-    font-size: 23px;
-    line-height: 34px;
+    font-size: 22px;
+    line-height: 28px;
     color: #828282;
 }
 .method-box{
-    border: 3px solid #CADEEF;
     border-radius: 15px;
     padding: 10px 20px 20px;
-    background-color: #CADEEF;
     position: relative;
 
 
+}
+.method-bg-one{
+    background-color: #CADEEF;
+}
+.method-bg-two{
+    background-color: rgba(202, 222, 239,80%);
+}
+.method-bg-thre{
+    background-color: rgba(202, 222, 239,60%);
+}
+.method-bg-four{
+    background-color: rgba(202, 222, 239,40%);
+}
+.method-bg-five{
+    background-color: rgba(202, 222, 239,30%);
 }
 .before-one::before{
     content: '';
