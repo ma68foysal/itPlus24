@@ -64,7 +64,7 @@ const Home = ({home}) => {
             <div>
             <div className='home-flex'>
               <div className='home-left'>
-              <img className='header-img' src="./images/slide3.png" alt="" />
+              <img className='header-img3' src="./images/slide3.png" alt="" />
               </div>
 
               <div className='home-right'>

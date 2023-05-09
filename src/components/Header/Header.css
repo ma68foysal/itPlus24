@@ -119,6 +119,7 @@
         font-size: 30px;
         background-color: transparent;
         color: #0E0032;
+        margin-top: 10px;
     }
     .contact-btn-link{
         display: none;
@@ -126,5 +127,6 @@
     .logo{
         width: 150px;
         margin-left: 10px;
+        height: 50px;
     }
 }
