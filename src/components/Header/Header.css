@@ -90,6 +90,7 @@
         margin-right: 0px; 
     }
 }
+
 @media (max-width: 844px){
     .menu-link{
         font-size: 16px;
@@ -103,6 +104,13 @@
     }
     
  }
+ @media (max-width: 800px) {
+    .menu-link{
+        font-size: 15px;
+        padding: 8px;
+    }
+    
+}
 @media (max-width: 767.98px) {
     .menu-link{
         display: none;
