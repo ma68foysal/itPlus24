@@ -9,7 +9,7 @@
     align-items: center;
     padding:20px !important;
     box-shadow: 0 2px 5px rgba(1, 1, 1, 0.3);
-    z-index: 99;
+    z-index: 9999;
     background-color: #fff;
 }
 
@@ -127,6 +127,6 @@
     .logo{
         width: 150px;
         margin-left: 10px;
-        height: 50px;
+        height: 40px;
     }
 }

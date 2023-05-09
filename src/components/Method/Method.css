@@ -94,6 +94,9 @@
     .before-two::before{
         height: 58%;
     }
+    .ml-425{
+        margin-left: 430px;
+    }
  }
  @media (max-width: 844px){
     
