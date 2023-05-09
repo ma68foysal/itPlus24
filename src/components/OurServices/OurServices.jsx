@@ -17,7 +17,7 @@ const OurServices = ({service}) => {
                     </div>
                     <div className="row  ">
                         <div className=' mobile-align d-flex justify-content-between align-items-center pt-100'>
-                            <div className="col-lg-3 mb-md-20 col-12 col-md-6 service-box service-befor ">
+                            <div className="col-lg-3 mb-md-20 col-8 col-md-5 mr-m-20 service-box service-befor ">
                                 <div className="service-content justify-content-center align-items-center d-flex">
                                     <div className="icon-box">
                                         <img className="icon" src={icon1} alt="icon" />
@@ -28,7 +28,7 @@ const OurServices = ({service}) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 mb-md-20 col-12 col-md-6 service-box">
+                            <div className="col-lg-3 mb-md-20 col-8 col-md-5 service-box">
                                 <div className="service-content justify-content-center align-items-center d-flex">
                                     <div className="icon-box">
                                         <img className="icon" src={icon2} alt="icon" />
@@ -39,7 +39,7 @@ const OurServices = ({service}) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3  m-md-auto col-12 col-md-6 service-box service-befor-line">
+                            <div className="col-lg-3  m-midle-align col-8 col-md-6 service-box service-befor-line">
                                 <div className="service-content justify-content-center align-items-center d-flex">
                                     <div className="icon-box">
                                         <img className="icon" src={icon3} alt="icon" />
@@ -56,8 +56,8 @@ const OurServices = ({service}) => {
 
                     </div>
                     <div className="row  ">
-                        <div className=' d-flex justify-content-center align-items-center pt-m-0 pt-100'>
-                            <div className="col-lg-3 col-md-6 col-12 mr-140  service-box service-before-after ">
+                        <div className=' mobile-align d-flex justify-content-between align-items-center mt-m-20 pt-m-0 pt-100'>
+                            <div className="col-lg-3 col-md-5 col-8 mr-140  service-box service-before-after ">
                                 <div className="service-content justify-content-center align-items-center d-flex">
                                     <div className="icon-box">
                                         <img className="icon" src={icon4} alt="icon" />
@@ -68,7 +68,7 @@ const OurServices = ({service}) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-12 ml-20 service-before-after-line service-box">
+                            <div className="col-lg-3 col-md-5 col-8 ml-20 service-before-after-line service-box">
                                 <div className="service-content justify-content-center align-items-center d-flex">
                                     <div className="icon-box">
                                         <img className="icon" src={icon5} alt="icon" />

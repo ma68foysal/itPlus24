@@ -45,6 +45,19 @@
 .social-icon{
     width: 30px;
 }
+
+@media ( max-width: 1399px){
+   
+}
+@media ( max-width: 1199px){
+   
+}
+@media (max-width: 844px){
+    .member-id-box {
+        margin: 20px 0;
+    }
+    
+}
 @media (max-width: 767.98px){
     .our-team-title-box{
         width: 100%;

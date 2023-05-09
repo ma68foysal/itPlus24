@@ -20,7 +20,7 @@ const Footer = ({Homes}) => {
                         <h3 className='footer-contact-title'>E-mail</h3>
                         <p className='footer-contact-des'>info@it-plus24.com</p>
                 </div>
-                <div className='col-lg-3 footer-content'>
+                <div className='col-lg-3 m-m-30 footer-content'>
                         <h2 className='footer-contact-head'>Contact With Us</h2>
                         <div className="social-link">
                             <img className='social-icon' src="./images/icon/linkden.png" alt="" />

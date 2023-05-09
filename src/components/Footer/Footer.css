@@ -39,13 +39,32 @@
     padding: 0;
 }
 
-@media (max-width: 767.98px) {
-    .footer-content{
-      text-align: center;
+@media (max-width:1440px ){
 
-    }
-    .footer-descriptin{
+ }
+ @media ( max-width: 1399px){
+    
+ }
+ @media ( max-width: 1199px){
+    
+ }
+ @media (max-width: 844px){
+    .footer-content{
         text-align: center;
-        margin-bottom: 30px;
+  
+      }
+      .footer-descriptin{
+          text-align: center;
+          margin-bottom: 30px;
+      }
+      .footer-contact-head{
+        color: #005DB7;
+        margin-top: 30px;
+      }
+      .m-m-30{
+        margin: 30px 0px;
     }
+ }
+@media (max-width: 767.98px) {
+    
  }

@@ -31,7 +31,7 @@
     border-radius: 10px;
     height: 336px;
     width: 336px;
-    
+    cursor: pointer;
 }
 .portfol-content-two{
     background-image: url(../../../public/images/portfolio2.jpg);
@@ -41,7 +41,7 @@
     border-radius: 10px;
     height: 336px;
     width: 336px;
-    
+    cursor: pointer;
 }
 .portfol-content-thre{
     background-image: url(../../../public/images/portfolio3.jpg);
@@ -51,7 +51,7 @@
     border-radius: 10px;
     height: 336px;
     width: 336px;
-    
+    cursor: pointer;
 }
 .portfol-content-four{
     background-image: url(../../../public/images/portfolio4.jpg);
@@ -61,7 +61,7 @@
     border-radius: 10px;
     height: 336px;
     width: 336px;
-    
+    cursor: pointer;
 }
 .portfol-content-five{
     background-image: url(../../../public/images/portfolio5.jpg);
@@ -71,6 +71,7 @@
     border-radius: 10px;
     height: 336px;
     width: 336px;
+    cursor: pointer;
     
 }
 .portfol-content-six{
@@ -81,6 +82,7 @@
     border-radius: 10px;
     height: 336px;
     width: 336px;
+    cursor: pointer;
     
 }
 
@@ -154,6 +156,43 @@
 .mt-30{
     margin-top: 30px;
 }
+
+@media (max-width:1440px ){
+    
+ }
+ @media ( max-width: 1399px){
+    
+ }
+ @media ( max-width: 1199px){
+    
+ }
+ @media (max-width: 844px){
+    .portfol-content-one{
+        margin: auto;
+        
+    }
+    .portfol-content-two{
+        margin: 20px auto;
+        
+    }
+    .portfol-content-thre{
+        margin:  auto;
+        
+    }
+    .portfol-content-four{
+        margin: 20px auto;
+        
+    }
+    .portfol-content-five{
+        margin:  auto;
+        
+    }
+    .portfol-content-six{
+        margin:  auto;
+        
+    }
+ }
+
 @media (max-width: 767.98px){
     .portfolio-title-box{
         width: 100%;
