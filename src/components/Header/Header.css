@@ -21,8 +21,7 @@
 }
 
 .menu-link{
-    padding: 5px;
-    margin: 5px;
+    padding: 15px;
     color: #0E0032;
     font-size: 20px;
     font-weight: 400;
@@ -39,6 +38,7 @@
     position: absolute;
     right: 32px;
     top: 20px;
+    color: #0E0032;
 }
 
 .contact-btn-link{
@@ -79,6 +79,19 @@
 
 
 /* Responsive header */
+@media (max-width: 844px){
+    .menu-link{
+        font-size: 16px;
+        padding: 12px;
+    }
+    .navbar{
+     flex-wrap: nowrap;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    
+ }
 @media (max-width: 767.98px) {
     .menu-link{
         display: none;
@@ -105,7 +118,7 @@
         text-align: end;
         font-size: 30px;
         background-color: transparent;
-        color: #ffffff;
+        color: #0E0032;
     }
     .contact-btn-link{
         display: none;
@@ -115,16 +128,3 @@
         margin-left: 10px;
     }
 }
-@media (max-width: 844px){
-    .menu-link{
-        font-size: 16px;
-        
-    }
-    .navbar{
-     flex-wrap: nowrap;
-    }
-    .logo{
-        margin-left: 10px;
-    }
-    
- }

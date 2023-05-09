@@ -56,7 +56,7 @@ const OurServices = ({service}) => {
 
                     </div>
                     <div className="row  ">
-                        <div className=' mobile-align d-flex justify-content-between align-items-center mt-m-20 pt-m-0 pt-100'>
+                        <div className=' mobile-align d-flex justify-content-center align-items-center mt-m-20 pt-m-0 pt-100'>
                             <div className="col-lg-3 col-md-5 col-8 mr-140  service-box service-before-after ">
                                 <div className="service-content justify-content-center align-items-center d-flex">
                                     <div className="icon-box">

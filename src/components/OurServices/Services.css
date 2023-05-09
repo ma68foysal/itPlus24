@@ -136,14 +136,14 @@
        }
     .service-befor-line::before{
         content: '';
-        width: 100%;
+        width: 95%;
         height: 165%;
         background-image: url(../../../public/images/line2.svg);
         background-repeat: no-repeat;
        
         position: absolute;
         top: -164%;
-        right: -19%;
+        right: -14%;
     }
     .service-before-after::before{
         content: '';
@@ -319,7 +319,7 @@
            display: none;
        }
        .mr-140 {
-        margin-right:0px;
+        margin-right:50px;
     }
     .pt-m-0{
         padding-top: 0;
