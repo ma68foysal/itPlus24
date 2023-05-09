@@ -79,6 +79,17 @@
 
 
 /* Responsive header */
+@media (max-width: 975px){
+    .menu-link {
+        padding: 13px;
+        font-size: 15px;
+        
+    }
+    .contact-btn-link {
+        width: 150px;
+        margin-right: 0px; 
+    }
+}
 @media (max-width: 844px){
     .menu-link{
         font-size: 16px;

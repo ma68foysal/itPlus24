@@ -12,7 +12,7 @@ const OurTeam = ({team}) => {
 
             </div>
             <div className="row m-auto justify-content-center">
-                <div className="col-lg-3">
+                <div className="col-lg-3 col-md-4">
                     <div className="member-id-box text-center">
                         <img className='member-img ' src="/images/member01.png" alt="Team Member" />
                         <h5 className='text-center member-name'>Mohammad Mustafa</h5>
@@ -25,7 +25,7 @@ const OurTeam = ({team}) => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-3">
+                <div className="col-lg-3 col-md-4">
                     <div className="member-id-box text-center">
                         <img className='member-img ' src="/images/member02.png" alt="Team Member" />
                         <h5 className='text-center member-name'>Mohammad Mustafa</h5>
@@ -38,7 +38,7 @@ const OurTeam = ({team}) => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-3">
+                <div className="col-lg-3 col-md-4">
                     <div className="member-id-box text-center">
                         <img className='member-img ' src="/images/member03.png" alt="Team Member" />
                         <h5 className='text-center member-name'>Mohammad Mustafa</h5>

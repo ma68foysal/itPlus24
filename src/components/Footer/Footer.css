@@ -46,15 +46,29 @@
     
  }
  @media ( max-width: 1199px){
-    
+  
+ }
+ @media ( max-width: 991px){
+      .footer-descriptin{
+          margin-bottom: 30px;
+      }
+      .footer-contact-head{
+        color: #005DB7;
+        font-size: 21px;
+        margin-top: 30px;
+      }
+      .m-m-30{
+        margin: 30px 0px;
+    }
+    .footer-contact-title {
+        font-size: 18px;
+        font-weight: bold;
+    }
  }
  @media (max-width: 844px){
-    .footer-content{
-        text-align: center;
-  
-      }
+   
       .footer-descriptin{
-          text-align: center;
+          
           margin-bottom: 30px;
       }
       .footer-contact-head{

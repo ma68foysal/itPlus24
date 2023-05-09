@@ -164,7 +164,56 @@
     
  }
  @media ( max-width: 1199px){
-    
+    .portfol-content-one{
+        margin: auto;
+        
+    }
+    .portfol-content-two{
+        margin: 20px auto;
+        
+    }
+    .portfol-content-thre{
+        margin:  auto;
+        
+    }
+    .portfol-content-four{
+        margin: 20px auto;
+        
+    }
+    .portfol-content-five{
+        margin:  auto;
+        
+    }
+    .portfol-content-six{
+        margin:  auto;
+        
+    }
+ }
+ @media ( max-width: 991px){
+    .portfol-content-one{
+        margin: auto;
+        
+    }
+    .portfol-content-two{
+        margin: 20px auto;
+        
+    }
+    .portfol-content-thre{
+        margin:  auto;
+        
+    }
+    .portfol-content-four{
+        margin: 20px auto;
+        
+    }
+    .portfol-content-five{
+        margin:  auto;
+        
+    }
+    .portfol-content-six{
+        margin:  auto;
+        
+    }
  }
  @media (max-width: 844px){
     .portfol-content-one{

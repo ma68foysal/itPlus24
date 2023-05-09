@@ -98,6 +98,29 @@
         margin-left: 430px;
     }
  }
+ @media ( max-width: 991px){
+    .before-one::before{
+        display: none;
+    }
+       .before-two::before{
+        display: none;
+    }
+    .ml-30{
+        margin-left: 0px;
+    }
+    .ml-160{
+        margin-left: 0px;
+    }
+    .ml-290{
+        margin-left: 0px;
+    }
+    .ml-425{
+        margin-left: 0px;
+    }
+    .ml-555{
+        margin-left: 0px;
+    }
+ }
  @media (max-width: 844px){
     
     .method-title-box{
