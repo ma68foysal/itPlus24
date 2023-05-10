@@ -78,6 +78,22 @@
 }
 
 /* Responsive home section */
+
+ @media (max-width: 991px){
+ .header-img{
+    max-width: 110%;
+    margin-top: 65px;
+}
+.header-img3{
+    max-width: 80%;
+    margin-top: 60px;
+}
+.home-title{
+    font-size: 40px;
+    line-height: 50px;
+    
+}
+}
 @media (max-width: 767.98px) {
     .home-flex{
         flex-direction: column;
@@ -99,4 +115,13 @@
         line-height: 40px; 
         font-family: 'raleway'; 
     }
+     .header-img{
+    max-width: 100%;
+    margin-top: 0px;
+}
+.header-img3{
+    max-width: 70%;
+    margin-top: 0px;
+    margin: 0px  auto 50px;
+}
  }
